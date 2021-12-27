@@ -8,7 +8,7 @@ COPY . /usr/src/dockertest1
 WORKDIR /usr/src/dockertest1
 
 # Use Clang to compile the Test.cpp source file
-RUN g++ -o Test hotal.cpp
+RUN g++ -o Test hotel.cpp
 
 # Run the output program from the previous step
 CMD ["./Test"]
